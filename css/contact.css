@@ -1,0 +1,134 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+      background-color: #9b3f7f;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+h4 {font-size: 20px;
+    font-weight: bold;
+
+    }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #9b3f7f;
+  padding: 25px 140px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+
+}
+
+header a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 800
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #FBC02D;
+  color: #603F7F;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
+
+#rectangle {width: 653px;
+            height: 0px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #f1b5b8;
+             }
+
+
+
+
+.wrapper {
+  width: 600px;
+  margin-top: 19px;
+
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+    color: #f1b5b8;
+    width: 50px;
+    height: 50px;
+    margin: 25px 20px 2px 2px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #f1b5b8;
+    float: left;
+}
+.ico-contact {
+    line-height: 1.9 !important;
+}
+.descript-wrapper {
+    float: left;
+    margin-bottom: 20px;
+}
+.aio-icon-title {
+    font-size: 20px;
+    color: #f1b5b8;
+    line-height: 1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 767px) {
+    .descript-wrapper,
+    .ico-wrap {
+      float: none;
+      text-align: center;
+    }
+    .ico-wrap {
+      margin: 0 auto 15px auto;
+    }
+}
+
+img { position : absolute ;
+       }
+
+footer {
+	margin: 225px auto 0;
+	height: 100px;
+	position: relative;
+	background-color: #9b3f7f;
+	text-align: center;
+	padding: 2em;
+}
