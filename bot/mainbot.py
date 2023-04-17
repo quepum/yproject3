@@ -79,7 +79,6 @@ def func(message):
 
 @bot.message_handler(content_types=['photo'])
 def save_photo(message):
-    print('tyjtyj')
     Path(f'files/{message.chat.id}/photos').mkdir(parents=True, exist_ok=True)
 
     try:
