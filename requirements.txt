@@ -1,0 +1,6 @@
+os
+Flask
+Flask-RESTful
+sqlite3
+pathlib
+telebot
