@@ -23,12 +23,9 @@ def about():
 
 @app.route('/galery', methods=['GET'])
 def galery():
-    pictures = os.listdir('bot/files/photos')
     if request.method == 'GET':
         return render_template('galery.html',
-                               pictures=pictures,
-                               title='Галерея',
-                               lnp=len(pictures))
+                               title='Галерея')
 
 
 @app.route('/contact')
